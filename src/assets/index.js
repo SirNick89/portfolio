@@ -18,14 +18,14 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import pixel from './pixel.png'
+import text from './text.png'
+import dalle from './dalle.png'
+import gym from './gym.png'
+import news from './news.png'
 
 import freecodecamp from "./company/freecodecamp.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 
 export {
   logo,
@@ -37,8 +37,7 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+pixel, text, news, dalle, gym,
   git,
   html,
   javascript,
@@ -47,10 +46,8 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
-  threejs,
+ 
+
   freecodecamp,
-  carrent,
-  jobit,
-  tripguide,
+ 
 };

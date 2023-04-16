@@ -4,7 +4,6 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -13,13 +12,8 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
+    pixel, text, news, dalle, gym,
     freecodecamp,
-    docker,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
   } from "../assets";
   
   export const navLinks = [
@@ -69,10 +63,7 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
@@ -94,10 +85,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -109,7 +96,7 @@ import {
       company_name: "FreeCodeCamp",
       icon: freecodecamp,
       iconBg: "#383E56",
-      date: "Dec 2022",
+      date: "Oct 2022",
       points: [
         "Developing and maintaining web applications skeletons from scratch.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -120,11 +107,11 @@ import {
       company_name: "FreeCodeCamp",
       icon: freecodecamp,
       iconBg: "#E6DEDD",
-      date: "Jan 2023",
+      date: "Nov 2023",
       points: [
         "Developing and designing the web applications to give them an elegant look from base CSS.",
     "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Creating beautifull designs using CSS libraries like Bootstrap, Tailwind for faster implementations.",
+    "Creating better UI designs using CSS libraries like Bootstrap, Tailwind for faster implementations.",
       ],
     },
     {
@@ -132,7 +119,7 @@ import {
       company_name: "FreeCodeCamp",
       icon: freecodecamp,
       iconBg: "#383E56",
-      date: "Jan 2023 - Feb 2023",
+      date: "Dec 2023",
       points: [
         "Developing Javascript logics to tackle and manipulate JS datatypes.",
         "Using old and new JavaScript predefined functions to tackle various challenges faced by developers.",
@@ -146,7 +133,7 @@ import {
       company_name: "FreeCodeCamp",
       icon: freecodecamp,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
@@ -155,45 +142,19 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
+ 
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pixel Bytes",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Graphic designer firm's website. This project uses a lot of react libraries such as framer-motion, react-tilt, react-vertical etc.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "framer-motion",
           color: "green-text-gradient",
         },
         {
@@ -201,13 +162,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: pixel,
+      source_code_link: "https://github.com/SirNick89/pixel-byte",
     },
     {
-      name: "Job IT",
+      name: "Gym Excercises",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search for exercises, and search exercises by various endpoints such as body parts, exercise type etc.",
       tags: [
         {
           name: "react",
@@ -218,34 +179,72 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "materialui",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: gym,
+      source_code_link: "https://github.com/SirNick89/gym-exercises",
     },
     {
-      name: "Trip Guide",
+      name: "Dall-E 2.0",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An AI image generator web application which uses DALL-E API to generate art from the prompt given by user, also uses cloudinary to save or share the images.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "restapi",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: dalle,
+      source_code_link: "https://github.com/SirNick89/dall-e",
+    },
+    {
+      name: "WiseMen News",
+      description:
+        "A web application to show top news headlines, which can be streamlined by user for specific news genre.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: news,
+      source_code_link: "https://github.com/SirNick89/news-app",
+    },
+    {
+      name: "Text Utils",
+      description:
+        "A text editing application wwhich provides various usefull text editing presets.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "green-text-gradient",
+        },
+      ],
+      image: text,
+      source_code_link: "https://github.com/SirNick89/Text-Utils",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
