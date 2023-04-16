@@ -13,6 +13,14 @@
   color-scheme: dark;
 }
 
+@media only screen and (max-width: 767px) {
+  .hero-section {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
