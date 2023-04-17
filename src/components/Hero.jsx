@@ -23,7 +23,7 @@ Hi, I'm <span className="text-[#0D98BA]">Nishant</span>
   </p>
   </div>
 </div>
-<div className="relative pt-[55vh] w-full h-[100vh]">
+<div className="relative pt-[47vh] w-full h-[100vh]">
 
   <ComputersCanvas/>
 </div>
